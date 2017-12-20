@@ -5,9 +5,6 @@ import java.util.Scanner;
 import br.projetocalculadora.controllers.GeneralCall;
 
 public class Main {
-
-	
-	
 	
 	
 	public static void main(String[] args) {
@@ -22,7 +19,7 @@ public class Main {
 		while(true){
 			String simbolo="+";
 			if(i>0){
-				System.out.println("Digite a operacoes. Exemplo: +/-*");
+				System.out.println("Digite uma das basicas. Exemplo: +/-*");
 				simbolo = (String)s.next();
 			}
 			System.out.println("Digite um numero:");
